@@ -8,7 +8,7 @@ using namespace std;
 
 int main () {
     Rectangle r;
-    Rectangle t;
+    Triangle t;
     Polygon poly;
     Polygon * ppoly1 = &r;
     Polygon * ppoly2 = &t;
@@ -16,8 +16,8 @@ int main () {
     ppoly1->set_values (4,5);
     ppoly2->set_values (4,5);
     ppoly3->set_values (4,5);
-    cout << ppoly1->area() << '\n';
-    cout << ppoly2->area() << '\n';
-    cout << ppoly3->area() << '\n';
+    cout << ppoly1-> area() << '\n';
+    cout << ppoly2-> area() << '\n';
+    cout << ppoly3-> area() << '\n';
     return 0;
 }

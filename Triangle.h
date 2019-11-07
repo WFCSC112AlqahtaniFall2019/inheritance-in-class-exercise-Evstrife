@@ -9,7 +9,7 @@
 class Triangle : public Polygon{
 
 public:
-    int area (int l, int w);
+    int area ();
 
 };
 

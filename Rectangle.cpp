@@ -4,6 +4,6 @@
 #include "Polygon.h"
 #include "Rectangle.h"
 
-int Rectangle::area (int l, int w){
-    return l*w;
+int Rectangle::area (){
+    return height * width;
 }

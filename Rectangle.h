@@ -11,7 +11,7 @@
 class Rectangle : public Polygon{
 
 public:
-    int area (int l, int w);
+    int area ();
 
 };
 
